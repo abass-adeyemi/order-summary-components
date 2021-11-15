@@ -1,0 +1,113 @@
+/* <!-- Feel free to remove these styles or customise in your own stylesheet 👍 --> */
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+.container_bg {
+	background-image: url(images/pattern-background-desktop.svg);
+	/* background-position: bottom; */
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin: 0%;
+	padding: 100px 0px;
+	border: 2px solid blue;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	/* width: 700px; */
+}
+.container {
+	margin: 0px;
+	padding: 0px;
+	border-radius: 15px;
+	border: 2px solid red;
+}
+h1 {
+	padding: 20px;
+	font-weight: 700;
+}
+.hero {
+	padding: 0px;
+
+	margin: 0px;
+	max-width: 450px;
+	max-height: 220px;
+}
+.hero img {
+	border-radius: 15px 15px 0 0;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+.contentInfo {
+	width: 450px;
+	background-color: white;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	border-radius: 0px 0px 15px 15px;
+}
+p {
+	font-size: 16px;
+	color: #7280a7;
+	font-weight: 500;
+}
+.summary {
+	margin: 5px 30px;
+	padding: 25px;
+	font-size: 16px;
+	color: #7280a7;
+}
+.summary {
+	padding: 20px 30px 0;
+}
+.music_container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	margin: 30px;
+	padding: 15px;
+	border: 1px solid red;
+	background-color: #f5f7ff;
+	border-radius: 10px;
+}
+.changeLink {
+	font-size: 16px;
+	font-weight: 500;
+	color: #7280a7;
+}
+
+.btn {
+	padding: 15px;
+	width: 345px;
+	border-radius: 15px;
+	background-color: hsl(245, 75%, 52%);
+	font-size: 16px;
+	color: #f5f7ff;
+}
+.cancelOrder {
+	margin: 20px;
+	padding: 25px;
+	border: 2px solid red;
+	font-weight: 700;
+}
+.cancelOrder > a {
+	padding: 15px;
+	border: 2px solid red;
+	text-decoration: none;
+	color: #7280a7;
+	font-weight: 700;
+}
