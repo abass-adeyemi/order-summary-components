@@ -16,17 +16,22 @@
 }
 .container_bg {
 	background-image: url(images/pattern-background-desktop.svg);
-	/* background-position: bottom; */
 	background-size: auto;
 	background-repeat: no-repeat;
 	margin: 0%;
 	padding: 100px 0px;
-	border: 2px solid blue;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
-	/* width: 700px; */
+}
+
+@media (max-width: 375px) {
+	.container_bg {
+		background-image: url(images/pattern-background-desktop.svg);
+		background-size: auto;
+		background-repeat: no-repeat;
+	}
 }
 .container {
 	margin: 0px;
@@ -80,7 +85,6 @@ p {
 	justify-content: space-around;
 	margin: 30px;
 	padding: 15px;
-	border: 1px solid red;
 	background-color: #f5f7ff;
 	border-radius: 10px;
 }
@@ -98,15 +102,17 @@ p {
 	font-size: 16px;
 	color: #f5f7ff;
 }
+.btn:hover {
+	background-color: hsl(273, 64%, 49%);
+	cursor: pointer;
+}
 .cancelOrder {
 	margin: 20px;
 	padding: 25px;
-	border: 2px solid red;
 	font-weight: 700;
 }
 .cancelOrder > a {
 	padding: 15px;
-	border: 2px solid red;
 	text-decoration: none;
 	color: #7280a7;
 	font-weight: 700;
